@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		4D23F8BB2563324200B71502 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23F88E2563324000B71502 /* ContentView.swift */; };
 		4D23F8BC2563324200B71502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D23F88F2563324200B71502 /* Assets.xcassets */; };
 		4D23F8BD2563324200B71502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D23F88F2563324200B71502 /* Assets.xcassets */; };
+		4D23F8D62563335F00B71502 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4D23F8D52563335F00B71502 /* Ink */; };
+		4D23F8DD2563336B00B71502 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4D23F8DC2563336B00B71502 /* Ink */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D23F8D62563335F00B71502 /* Ink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D23F8DD2563336B00B71502 /* Ink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +99,7 @@
 				4D23F8A72563324200B71502 /* Tests iOS */,
 				4D23F8B22563324200B71502 /* Tests macOS */,
 				4D23F8952563324200B71502 /* Products */,
+				4D23F8DB2563336B00B71502 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +160,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		4D23F8DB2563336B00B71502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +183,9 @@
 			dependencies = (
 			);
 			name = "SwiftUIMarkdownEditor (iOS)";
+			packageProductDependencies = (
+				4D23F8D52563335F00B71502 /* Ink */,
+			);
 			productName = "SwiftUIMarkdownEditor (iOS)";
 			productReference = 4D23F8942563324200B71502 /* SwiftUIMarkdownEditor.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +203,9 @@
 			dependencies = (
 			);
 			name = "SwiftUIMarkdownEditor (macOS)";
+			packageProductDependencies = (
+				4D23F8DC2563336B00B71502 /* Ink */,
+			);
 			productName = "SwiftUIMarkdownEditor (macOS)";
 			productReference = 4D23F89C2563324200B71502 /* SwiftUIMarkdownEditor.app */;
 			productType = "com.apple.product-type.application";
@@ -262,6 +280,9 @@
 				Base,
 			);
 			mainGroup = 4D23F8862563324000B71502;
+			packageReferences = (
+				4D23F8D42563335F00B71502 /* XCRemoteSwiftPackageReference "Ink" */,
+			);
 			productRefGroup = 4D23F8952563324200B71502 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -702,6 +723,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D23F8D42563335F00B71502 /* XCRemoteSwiftPackageReference "Ink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Ink.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D23F8D52563335F00B71502 /* Ink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D23F8D42563335F00B71502 /* XCRemoteSwiftPackageReference "Ink" */;
+			productName = Ink;
+		};
+		4D23F8DC2563336B00B71502 /* Ink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D23F8D42563335F00B71502 /* XCRemoteSwiftPackageReference "Ink" */;
+			productName = Ink;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D23F8872563324000B71502 /* Project object */;
 }
