@@ -54,6 +54,7 @@
 		4D23F8AF2563324200B71502 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D23F8B32563324200B71502 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4D23F8B52563324200B71502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D23F8E22563347800B71502 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4D23F8972563324200B71502 /* Info.plist */,
+				4D23F8E22563347800B71502 /* WebView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
