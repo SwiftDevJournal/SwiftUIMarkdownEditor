@@ -12,7 +12,7 @@ struct ContentView: View {
     @Binding var document: SwiftUIMarkdownEditorDocument
 
     var body: some View {
-        VStack {
+        HStack {
             TextEditor(text: $document.text)
             WebView(html: html)
         }
