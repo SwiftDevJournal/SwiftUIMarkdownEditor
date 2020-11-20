@@ -58,6 +58,7 @@
 		4D23F8B52563324200B71502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D23F8E22563347800B71502 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		4DE3B717256754D100A01423 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4DE3B78B256863A200A01423 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		4D23F8862563324000B71502 = {
 			isa = PBXGroup;
 			children = (
+				4DE3B78B256863A200A01423 /* README.md */,
 				4D23F88B2563324000B71502 /* Shared */,
 				4D23F8962563324200B71502 /* iOS */,
 				4D23F89D2563324200B71502 /* macOS */,
