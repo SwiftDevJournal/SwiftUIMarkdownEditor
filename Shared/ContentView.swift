@@ -12,8 +12,10 @@ struct ContentView: View {
     @Binding var document: SwiftUIMarkdownEditorDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
-        WebView(html: html)
+        VStack {
+            TextEditor(text: $document.text)
+            WebView(html: html)
+        }
     }
     
     var html: String {
