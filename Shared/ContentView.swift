@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
+import Ink
 
 struct ContentView: View {
     @Binding var document: SwiftUIMarkdownEditorDocument
 
     var body: some View {
         TextEditor(text: $document.text)
-        WebView(html: "<p>Test paragraph</p>")
+        WebView(html: html)
+    }
+    
+    var html: String {
+        let parser = MarkdownParser()
+        return parser.html(from: document.text)
     }
 }
 
