@@ -12,6 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         TextEditor(text: $document.text)
+        WebView(html: "<p>Test paragraph</p>")
     }
 }
 
