@@ -17,7 +17,7 @@ extension UTType {
 struct SwiftUIMarkdownEditorDocument: FileDocument {
     var text: String
 
-    init(text: String = "Hello, world!") {
+    init(text: String = "Type here") {
         self.text = text
     }
 
