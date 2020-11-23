@@ -1,6 +1,6 @@
 # SwiftUIMarkdownEditor
 
-A Markdown editor with live preview written with SwiftUI that runs on both iOS and Mac. This project demonstrates the following aspects of SwiftUI development:
+A Markdown editor with live preview written with SwiftUI that runs on both iOS and Mac. This project accompanies the article [Make a Markdown Editor in SwiftUI](https://www.swiftdevjournal.com/make-a-markdown-editor-in-swiftui/) and demonstrates the following aspects of SwiftUI development:
 
 * Creating a document-based SwiftUI project
 * Creating a SwiftUI project that runs on both iOS and Mac
