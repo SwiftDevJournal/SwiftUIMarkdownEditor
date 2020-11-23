@@ -10,3 +10,10 @@ This project requires Xcode 12.2+. The iOS app runs on iOS 14+. The Mac app runs
 
 The project uses the [Ink Markdown parser](https://github.com/JohnSundell/Ink) written by John Sundell to translate the Markdown to the HTML that appears in the web view. The Ink parser does not currently support creating code blocks through indentation. You must add three or more backticks on the line above and below the code to create a code block.
 
+## Ways to Improve the Editor
+
+This project currently provides a starting point towards creating a full Markdown editor. Improvements you could make include the following:
+
+* Providing user interface elements to add Markdown without having to know Markdown syntax.
+* Adding CSS styling to the web view.
+* Adding Markdown syntax highlighting to the text editor.
