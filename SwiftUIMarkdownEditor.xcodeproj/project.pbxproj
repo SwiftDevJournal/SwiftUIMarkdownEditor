@@ -20,6 +20,7 @@
 		4D23F8D62563335F00B71502 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4D23F8D52563335F00B71502 /* Ink */; };
 		4D23F8DD2563336B00B71502 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4D23F8DC2563336B00B71502 /* Ink */; };
 		4D23F8E3256334FB00B71502 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23F8E22563347800B71502 /* WebView.swift */; };
+		4DB5CE8726B32E1900D629BC /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB5CE8626B32E1900D629BC /* CodeEditor */; };
 		4DE3B71C25676B7600A01423 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3B717256754D100A01423 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB5CE8726B32E1900D629BC /* CodeEditor in Frameworks */,
 				4D23F8DD2563336B00B71502 /* Ink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +215,7 @@
 			name = "SwiftUIMarkdownEditor (macOS)";
 			packageProductDependencies = (
 				4D23F8DC2563336B00B71502 /* Ink */,
+				4DB5CE8626B32E1900D629BC /* CodeEditor */,
 			);
 			productName = "SwiftUIMarkdownEditor (macOS)";
 			productReference = 4D23F89C2563324200B71502 /* SwiftUIMarkdownEditor.app */;
@@ -290,6 +293,7 @@
 			mainGroup = 4D23F8862563324000B71502;
 			packageReferences = (
 				4D23F8D42563335F00B71502 /* XCRemoteSwiftPackageReference "Ink" */,
+				4DB5CE8526B32E0A00D629BC /* XCRemoteSwiftPackageReference "CodeEditor" */,
 			);
 			productRefGroup = 4D23F8952563324200B71502 /* Products */;
 			projectDirPath = "";
@@ -743,6 +747,14 @@
 				kind = branch;
 			};
 		};
+		4DB5CE8526B32E0A00D629BC /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -755,6 +767,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4D23F8D42563335F00B71502 /* XCRemoteSwiftPackageReference "Ink" */;
 			productName = Ink;
+		};
+		4DB5CE8626B32E1900D629BC /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB5CE8526B32E0A00D629BC /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
