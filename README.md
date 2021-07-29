@@ -22,4 +22,3 @@ This project currently provides a starting point towards creating a full Markdow
 
 * Providing user interface elements to add Markdown without having to know Markdown syntax.
 * Adding CSS styling to the web view.
-* Adding Markdown syntax highlighting to the text editor.
