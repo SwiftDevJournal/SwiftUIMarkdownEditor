@@ -21,6 +21,8 @@
 		4D23F8DD2563336B00B71502 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4D23F8DC2563336B00B71502 /* Ink */; };
 		4D23F8E3256334FB00B71502 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23F8E22563347800B71502 /* WebView.swift */; };
 		4DB5CE8726B32E1900D629BC /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB5CE8626B32E1900D629BC /* CodeEditor */; };
+		4DB5CE8926B32E6800D629BC /* CodeThemeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5CE8826B32E6800D629BC /* CodeThemeNames.swift */; };
+		4DB5CE8A26B32E6800D629BC /* CodeThemeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5CE8826B32E6800D629BC /* CodeThemeNames.swift */; };
 		4DE3B71C25676B7600A01423 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3B717256754D100A01423 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,7 @@
 		4D23F8B32563324200B71502 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4D23F8B52563324200B71502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D23F8E22563347800B71502 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4DB5CE8826B32E6800D629BC /* CodeThemeNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeThemeNames.swift; sourceTree = "<group>"; };
 		4DE3B717256754D100A01423 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		4DE3B78B256863A200A01423 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +120,7 @@
 				4D23F88C2563324000B71502 /* SwiftUIMarkdownEditorApp.swift */,
 				4D23F88D2563324000B71502 /* SwiftUIMarkdownEditorDocument.swift */,
 				4D23F88E2563324000B71502 /* ContentView.swift */,
+				4DB5CE8826B32E6800D629BC /* CodeThemeNames.swift */,
 				4D23F88F2563324200B71502 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -349,6 +353,7 @@
 				4D23F8E3256334FB00B71502 /* WebView.swift in Sources */,
 				4D23F8B62563324200B71502 /* SwiftUIMarkdownEditorApp.swift in Sources */,
 				4D23F8BA2563324200B71502 /* ContentView.swift in Sources */,
+				4DB5CE8926B32E6800D629BC /* CodeThemeNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +365,7 @@
 				4DE3B71C25676B7600A01423 /* WebView.swift in Sources */,
 				4D23F8B72563324200B71502 /* SwiftUIMarkdownEditorApp.swift in Sources */,
 				4D23F8BB2563324200B71502 /* ContentView.swift in Sources */,
+				4DB5CE8A26B32E6800D629BC /* CodeThemeNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
