@@ -7,13 +7,15 @@
 
 import SwiftUI
 import Ink
+import CodeEditor
 
 struct ContentView: View {
     @Binding var document: SwiftUIMarkdownEditorDocument
 
     var body: some View {
         HStack {
-            TextEditor(text: $document.text)
+            // Use the theme argument to supply the theme you want to use.
+            CodeEditor(source: $document.text, language: .markdown, theme: .docco)
             WebView(html: html)
         }
     }
