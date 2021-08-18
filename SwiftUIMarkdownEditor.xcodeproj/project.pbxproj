@@ -24,6 +24,7 @@
 		4DB5CE8926B32E6800D629BC /* CodeThemeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5CE8826B32E6800D629BC /* CodeThemeNames.swift */; };
 		4DB5CE8A26B32E6800D629BC /* CodeThemeNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5CE8826B32E6800D629BC /* CodeThemeNames.swift */; };
 		4DE3B71C25676B7600A01423 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3B717256754D100A01423 /* WebView.swift */; };
+		4DF11EFD26CD827300070C9A /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 4DF11EFC26CD827300070C9A /* CodeEditor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF11EFD26CD827300070C9A /* CodeEditor in Frameworks */,
 				4D23F8D62563335F00B71502 /* Ink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +201,7 @@
 			name = "SwiftUIMarkdownEditor (iOS)";
 			packageProductDependencies = (
 				4D23F8D52563335F00B71502 /* Ink */,
+				4DF11EFC26CD827300070C9A /* CodeEditor */,
 			);
 			productName = "SwiftUIMarkdownEditor (iOS)";
 			productReference = 4D23F8942563324200B71502 /* SwiftUIMarkdownEditor.app */;
@@ -775,6 +778,11 @@
 			productName = Ink;
 		};
 		4DB5CE8626B32E1900D629BC /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB5CE8526B32E0A00D629BC /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
+		4DF11EFC26CD827300070C9A /* CodeEditor */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4DB5CE8526B32E0A00D629BC /* XCRemoteSwiftPackageReference "CodeEditor" */;
 			productName = CodeEditor;
